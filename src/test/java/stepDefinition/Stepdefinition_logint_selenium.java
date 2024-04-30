@@ -1,4 +1,4 @@
-package stepdefinition;
+package stepDefinition;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -31,7 +31,7 @@ public class Stepdefinition_logint_selenium {
 		@Then("user should navigate to homepage")
 		public void user_should_navigate_to_homepage() {
 			System.out.println("user is homepage");
-			WebElement dash=driver.findElement(By.xpath("//h6[@class='oxd-text oxd-text--h6 oxd-topbar-header-breadcrumb-module']"));)
+			WebElement dash=driver.findElement(By.xpath("//h6[@class='oxd-text oxd-text--h6 oxd-topbar-header-breadcrumb-module']"));
 			if(dash.isDisplayed()==true) {
 				System.out.println("pass");
 			}
